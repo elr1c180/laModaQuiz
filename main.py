@@ -5,7 +5,7 @@ from database import init_db
 
 # Запуск бота
 async def main():
-    bot = Bot(token="7266872684:AAH2NTvCA_uPCnaDq70kkWisrxIXDko03MU")
+    bot = Bot(token="")
     dp = Dispatcher()
 
     dp.include_routers(start.router, form_start.router, quiz_start.router)
